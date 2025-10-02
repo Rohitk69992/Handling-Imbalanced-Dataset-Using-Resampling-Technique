@@ -1,24 +1,45 @@
-# Handling-Imbalanced-Dataset-Using-Resampling-Technique
-This repository explores different techniques to address class imbalance in datasets, with a focus on a fraud detection dataset. Class imbalance is a common challenge in real-world problems where one class (e.g., fraud cases) is significantly underrepresented compared to another (non-fraud cases).
+# 🕵️ Fraud Detection – Handling Imbalanced Datasets  
 
-📌 What’s inside
-Dataset: Fraud detection dataset (sourced from GeeksforGeeks, for educational purposes).
-Techniques implemented:
+This project explores different techniques for handling **imbalanced datasets**, applied to a **fraud detection dataset**. The goal is to compare methods like upsampling and downsampling, and evaluate their effect on model performance.  
 
-  Random Upsampling (increasing minority class samples).
-  Random Downsampling (reducing majority class samples).
+---
 
-(On Later Stages new Techniques will be shown in this repo).
+## 📌 Project Highlights
+- 📊 **Dataset**: Fraud detection dataset (sourced from GeeksforGeeks, used for educational purposes).  
+- 🛠️ **Techniques implemented**:
+  - Random Upsampling (increase minority samples)  
+  - Random Downsampling (reduce majority samples)  
+- 🤝 **Comparison with other approaches**: My method vs. method used in the GFG tutorial.  
+- 🧪 **Evaluation**: Effect of balancing techniques on classification results.  
 
-Comparison of results between methods.
-Jupyter Notebook / Python script with clean, reproducible code.
+---
 
-🎯 Why this project?
-Demonstrates how to handle imbalanced data in machine learning.
-Shows the effect of different resampling strategies on model performance.
-Serves as a reusable template for applying imbalance-handling methods to other datasets.
+## 🚀 Why This Project?
+- Demonstrates how to handle **imbalanced data** in machine learning.  
+- Highlights the **importance of balancing techniques** in fraud detection problems.  
+- Serves as a **reusable template** for handling imbalance in other datasets.  
 
-🚀 Future Work
-Add advanced resampling methods like SMOTE or ensemble techniques.
-Experiment with different classifiers (Logistic Regression, Random Forest, XGBoost).
-Visualize class distribution before and after resampling.
+---
+
+## 🔮 Future Work
+This repository will continue to grow with **more techniques, algorithms, and experiments** on the same dataset:  
+- Add advanced resampling methods (SMOTE, Borderline-SMOTE, ADASYN).  
+- Explore **ensemble methods** like EasyEnsemble, BalanceCascade.  
+- Apply cost-sensitive learning and anomaly detection approaches.  
+- Experiment with multiple ML models (Logistic Regression, Random Forest, XGBoost, LightGBM, Neural Nets).  
+- Add **data visualizations** to compare class distribution before and after resampling.  
+- Document and compare **new, unique methods** as they are explored.  
+
+---
+
+## 📂 Repository Structure
+- `notebooks/` – Jupyter notebooks with experiments  
+- `data/` – (if included) dataset files or link to dataset source  
+- `results/` – saved evaluation metrics or plots  
+- `README.md` – project documentation  
+
+---
+
+## 🙌 Acknowledgements
+- Dataset taken from **GeeksforGeeks** (educational purpose only).  
+- Inspired by common fraud detection case studies and tutorials.  
