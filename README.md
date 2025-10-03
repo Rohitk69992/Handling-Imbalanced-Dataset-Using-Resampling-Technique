@@ -23,7 +23,7 @@ This project explores different techniques for handling **imbalanced datasets**,
 
 ## 🔮 Future Work
 This repository will continue to grow with **more techniques, algorithms, and experiments** on the same dataset:  
-- Add advanced resampling methods (SMOTE, Borderline-SMOTE, ADASYN).  
+- Add on new advanced resampling methods (SMOTE ✅, Borderline-SMOTE, ADASYN).
 - Explore **ensemble methods** like EasyEnsemble, BalanceCascade.  
 - Apply cost-sensitive learning and anomaly detection approaches.  
 - Experiment with multiple ML models (Logistic Regression, Random Forest, XGBoost, LightGBM, Neural Nets).  
@@ -35,7 +35,7 @@ This repository will continue to grow with **more techniques, algorithms, and ex
 ## 📂 Repository Structure
 - `notebooks/` – Jupyter notebooks with experiments  
 - `data/` – (if included) dataset files or link to dataset source  
-- `results/` – saved evaluation metrics or plots  
+- `results/` – saved evaluation metrics or plots  (Will be added after ML Concepts)
 - `README.md` – project documentation  
 
 ---
